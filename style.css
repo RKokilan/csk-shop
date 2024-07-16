@@ -1,0 +1,314 @@
+*{
+    margin 0;
+    padding: 0;
+}
+
+.headmenu{
+    position: fixed;
+}
+
+.menucontainer {
+   
+    display: flex;
+    list-style-type: none;
+    justify-content: center;   
+   position: absolute;
+   top: 10px;
+   left: 27%;
+
+    background-image: url(yellow\ border.jp);
+
+   
+    
+}
+
+
+#submenu{
+    list-style-type: none;
+    display: none;
+    
+    
+}
+
+
+
+
+.menucontainer li:nth-child(9):hover #submenu{
+    display: block;
+    background-color: white;
+    color: black;
+    background-repeat: no-repeat;
+    
+}
+
+
+ a{
+   
+    display: block;
+   width: 80px;
+  justify-content: center;
+  margin-top: 15px;
+  
+  
+}
+
+
+.menucontainer a
+{
+    
+        text-decoration: none;
+        color: rgb(9, 127, 136);
+        font-family: "Barlow Condensed", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+    
+    
+}
+
+
+
+
+#submenu li a {
+    color: black;
+}
+
+
+.cskcup {
+ 
+ 
+    position: absolute;
+    left: 42%;
+    
+    
+    
+   
+  
+}
+.headmenu{
+  z-index: 2;
+ }
+
+
+
+
+.cskbanner img {
+    width: 100%;
+    height: 40vh;
+    margin-top: 50px;
+  
+}
+
+
+.nav{
+    background-color: aliceblue;
+    border: solid ;
+   height: 50px; 
+   width: 30%;
+
+    
+    color: rgb(207, 207, 209);
+    display: block;
+}
+
+.navdetails{
+    list-style-type: none;
+    color: black;
+}
+
+.navdetails ul
+{
+    list-style-type: none;
+    display: none;   
+}
+
+.navdetails li:nth-child(4):hover #subnav1{
+    display: block;
+   
+}
+
+.navdetails li:nth-child(5):hover #subnav2{
+    display: block;
+   
+}
+
+.navdetails li:nth-child(6):hover #subnav3{
+    display: block;
+   
+}
+
+.navdetails li:nth-child(7):hover #subnav4{
+    display: block;
+   
+}
+
+.navdetails li:nth-child(8):hover #subnav5{
+    display: block;
+   
+}
+
+
+.verticalnav{
+    background-color: rgb(255, 255, 255);
+    border: solid 1px;
+  
+    width: 300px;
+    margin-top: 60px;
+    margin-left: 10%;
+  
+   
+}
+
+
+.navdetails a{
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+
+}
+
+.navdetails #hov1:hover #h1
+{
+color: blue;
+}
+
+.navdetails #hov2:hover #h2
+{
+color: blue;
+}
+
+.navdetails #hov3:hover #h3
+{
+color: blue;
+}
+
+.navdetails #hov4:hover #h4
+{
+color: blue;
+}
+
+.navdetails #hov5:hover #h5
+{
+color: blue;
+}
+.cardcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    
+    
+}
+
+.card{
+    width: 250px;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px  rgb(100, 100, 100);
+  
+   
+}
+.card:hover{
+    
+    cursor: pointer;
+}
+
+
+.cardcontainer2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 80%;
+    
+    
+}
+
+
+.cardcontainer3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 107%;
+    
+}
+
+
+
+.cardcontainer4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 133%;
+    
+}
+
+
+.selectionbox{
+    display: flex;
+   
+    position: absolute;
+    bottom: -75%;
+    left: 10%;
+    
+   
+
+}
+
+.selectbox{
+    margin-left: 20px;
+    width: 60px;
+    height: 40px;
+}
+
+.pagination{
+    position: relative;
+    left: 100%;
+}
+
+
+.containermy{
+   margin-top: 42%;
+
+}
+
+.text-white{
+    
+}
+
+
+.foottext{
+ position:absolute;
+ display: flex;
+ top: 185%;
+ right: 10%;
+
+
+     
+    
+}
+
+
+
+.foottext a
+{
+
+ color: rgb(255, 255, 255);
+ margin: 2px;
+ text-decoration: none;
+
+ 
+}
+
+.foottext a:hover{
+    color: yellow;
+}
+
+
